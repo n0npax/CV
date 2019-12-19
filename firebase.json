@@ -6,6 +6,7 @@
                 "destination": "/.well-known/security.txt"
             }
         ],
-        "public": "."
+        "public": ".",
+        "site": "resume-248107"
     }
 }
