@@ -92,15 +92,19 @@ more_content: | # this will include new lines to allow paragraphs
   * terraform (2+ docs)
   * cloud builders community (10+ commits - builders)
 
+
   <!-- FIREBASE -->
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="/__/firebase/7.4.0/firebase-app.js"></script>
+  <script src="/__/firebase/7.6.0/firebase-app.js"></script>
 
   <!-- TODO: Add SDKs for Firebase products that you want to use
   https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="/__/firebase/7.4.0/firebase-analytics.js"></script>
+  <script src="/__/firebase/7.6.0/firebase-analytics.js"></script>
 
+  <!-- Add the standard Performance Monitoring library -->
+  <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-performance.js"></script>
+      
   <!-- Initialize Firebase -->
   <script src="/__/firebase/init.js"></script>
 
@@ -108,7 +112,9 @@ more_content: | # this will include new lines to allow paragraphs
 
   <script>
   analytics = firebase.analytics();
-  analytics.logEvent('CV-LOAD', {"nane":"index.html"});
+  analytics.logEvent('load', "CV");
+  var perf = firebase.performance();
+
   </script>
 
 # Footer
