@@ -1,10 +1,223 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
+  company: ANZ
+  link: https://www.anz.com.au/personal/
+  job_title: Software engineer
+  dates: January 2019 - Now Melbourne, Australia
+  description: >
+    Developing Platform shared by many tribes & teams. Implementing new workflows for applications deployment. Introducing GCP and K8S to the teams. Providing support and advices for appliaction architecture. Providing clean and scalable architecture for shared platform. Implementing various solution using wide toolset. Dealing with various tasks range starting with regular application development to fully declarative security improvements and infrastructure management. Being technical lead for GCP based projects.
+
+
+    GCP/K8S
+      * GKE (cluster,istio,namespaces,rbac,network policies) - terraform, helm, yaml, kustomize
+      * gcr, gsr, gcs, iam, cloudbuild, cloudsql, pubsub, firebase - terraform / terragrunt
+      * opa policies - rego
+      * monitoring - stackdriver, jeager, kiali, prometheus, grafana
+    
+    CI/CD
+      * Spinnaker
+      * CloudBuild
+      * Bamboo
+      * pubsub
+      * Artifactory
+      * Custom tools
+
+    Software Architecture
+      * Guiding team members
+      * Design pipelines & deployment
+      * Design parts of the system
+      * Providing diagrams for infrastructure and security forums
+      * Participating in high level architectural and security decisions
+    
+    Software Engineering
+      * Applications development - python3, go
+      * Linters - shellcheck, pylint, bandit, golangci-lit, gosec ...
+      * Code review
+      * Providing documentation
+
+    Linux
+      * Kernel tuning
+      * Troubleshouting
+
+    Guiding and providing trainings for the teams
+      * Python development
+      * Docker optimalization
+      * K8S
+      * GCP
+      * Terraform
+      * service mesh
+      * CI/CD best practices
+      * Linux
+      
+    Soft Skills
+      * Technical leading
+      * Interviewing candidates
+      * Distributing tasks for group of engineers (from 2 to 5 engineers)
+
+
+  # Experience template
+- layout: left
+  company: Silverpond
+  link: https://silverpond.com.au/
+  job_title: Software engineer 
+  dates: September 2018 - January 2019 Melbourne, Australia 
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    Backend development and introducing DevOps culture. Providing new features for customer and bugfixes for various AI applications. Preparing pipelines and automatization for reproducibility and deployment.
+
+    Developing new features and bug-fixes for various applications using
+      * uServices, API, data processing, libraries - python, Go
+      * Performance optimalization - python
+
+    Introducing security policies
+      * Design and implement security & disaster recovery policies
+      * Harden operating systems
+      * Critical data encryption
+      * Access revoke automation, unnecessary access restrictions
+      * Providing draft plans for security improvements
+      * Logs Collection
+
+    Design and implementation
+      * Bypassing geo-blocking - Lambda
+      * Monitoring - New Relic
+      * Backup - restic, minio
+      * Centralized logs - ELK & awslogs
+      * Metrics - InfluxDB, telegraf & Grafana
+      * IaaC - Terragrunt & Terraform
+      * Orchestration - Ansible
+      * Various API - python
+
+    Continous integration
+      * CI - gitlab
+      * Linting - git-hooks & gitlab jobs
+      * Packaging - CI & pypisever
+
+    Other
+      * Contenerization - Docker
+      * Refactor application to be cloud agnostic - ruby
+
+
+  # Experience template
+- layout: left
+  company: OVH
+  link: https://www.ovh.pl/
+  job_title: DevOps Developer
+  dates: September 2016 - September 2018 Wroclaw, Poland
+  description: | # this will include new lines to allow paragraphs
+    Developing distributed system to manage IaaS solution for Ceph (Distributed storage). Working on a scale (20K+ nodes) for cloud provider as a part of cross functional DevOps team. Providing a high available solution in distributed environment.
+
+    Developing new features, bug-fixes and orchestration
+    * Businesses logic, data processing, uServices - python
+    * Orchestration - puppet
+    * IaaC - Terraform
+    * Minor improvements - Go
+    * Test - pytest, OpenStack api
+    
+    Developing and providing integration
+    * Messaging - rabbitmq
+    * Async tasks - celery
+    * Synchronization - ZooKeeper
+    * Contenerization - Docker
+    
+    CI/CD
+    * Build system - CDS
+    * Deployment - Marathon
+    
+    Developing self-healing system based on event-bus
+    
+    Code review
+    
+    Monitoring major refactor & redesign
+    * Multi-master,multi-slave - Icinga2
+    * 200 000 checks per minute (plus possible extension via horizontal scaling)
+    
+    On call duty participation
+   
+    Preparing separate production environment due to Patriot Act in the USA
+    
+    Training US team to take responsibility for the product
+
+    Introducing and mentoring junior dev which joined the team
+
+    Representing company on job fairs
+
+# Experience template
+- layout: left
+  company: Nokia
+  link: https://nokiawroclaw.pl/
+  jobs:
+    - title: DevOps
+      dates: October 2015 - August 2016
+    - title: Software Developer
+      dates: June 2014 - May 2015 Wroclaw, Poland 
+
+  description: |
+    Developing and maintaining distributed CI/CD solutions for internal purposes (about 1500 CPU). Providing distributed and high available solution for cached build workspaces.
+
+    Developing internal tools
+      * Business logic - Python, Bash
+      * Scripts - Bash, Perl
+      * Orchestrization - Puppet
+      * Refactoring build systems - CMake, Make
+    
+    CI
+      * Build system - Jenkins
+      * Contenerization - Docker
+    
+    Design & implementation
+      * Backup for satellite infrastructure - Duplicity
+      * Commit hooks - git, svn
+    
+    ---
+    
+    Developing backup and restore system for network elements in telecommunication systems.
+
+    Application details:
+    * Data processing, business logic - Python
+    * Automatization - Bash
+    * Rest api - cherrypy, swagger
+    * IPv6 support
+    * SELinux policies
+
+    Tests
+    * pytest
+    * Robot framework
+
+
+# Experience template
+- layout: left
+  company: Freelancing
+  #link: Link to company (optional)
+  job_title: owner
+  dates: October 2012 - June 2014 Lowicz/Wroclaw, Poland 
+  #quote: >
+  # Providing technical support 
+  description: | # this will include new lines to allow paragraphs
+    Helpdesk, IT Service on request.
+
+    Helpdesk:
+    * OS fixing
+    * Data restoring
+    * Network fixing
+
+    Development:
+    * Web development
+    * Implementating application for mass mail notification - Java
+    * Student project on request
+
+# Experience template
+- layout: left
+  company: OLPP (PERN)
+  link: https://pern.pl/
+  job_title: Summer intern
+  dates: September 2012 - September 2012 Warsaw, Poland
+  #quote: >
+  # Providing technical support 
+  description: | # this will include new lines to allow paragraphs
+    Helpdesk, system administration.
+
+    Main tasks:
+    * Maitaining www server - apache
+    * Implementing minor changes on website - php, html
+    * Automation os OS installation - GHost
+    * Minor tasks connected with VMware and AD.
+    * Helpdesk

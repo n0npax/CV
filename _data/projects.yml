@@ -1,9 +1,96 @@
 # Project template
-- layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
+- layout: left
+  name: System Engineering
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  #quote: >
+  #  Short overview of the project (optional)
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    ⬛️⬛️⬛️⬛️⬛️ Linux | ubuntu, systemd, packaging, etc, software development, ...
+    ⬛️⬛️⬛️⬛️⬜️ System optimalization | atop, strace, dstat, iotop, sar, ss, understanding of few files in /proc and /dev
+    ⬛️⬛️⬛️⬜️⬜️ Unix | FreeBSD, pfSense, ports
+    ⬛️⬛️⬜️⬜️⬜️ Network troubleshooting | ss, ip r, tcpflow, tcpdump, overall average understanding of network
+
+- layout: left
+  name: Cloud
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  #quote: >
+  #  Short overview of the project (optional)
+  description: | # this will include new lines to allow paragraphs
+    ⬛️⬛️⬛️⬛️⬛️ cloud | ceph
+    ⬛️⬛️⬛️⬛️⬛️ Containers | Docker, docker-compose
+    ⬛️⬛️⬛️⬛️⬛️ gcp | gcs, gcr, gke, functions, bigtable, cloudSQL, iam, pubsub, compute, appengine, ...
+    ⬛️⬛️⬛️⬛️⬛️ k8s | manifests, helm, opa, rbac, spinnaker, network policies, ...
+    ⬛️⬛️⬛️⬛️⬜️ aws | s3, ec2, ecs, lambda, dynamodb, sns, iam, beanstalk, cloudwatch, ...
+    ⬛️⬛️⬛️⬜️⬜️ cloud | openstack, vmware, marathon
+    ⬛️⬛️⬜️⬜️⬜️ Network | routing, switching
+    ⬛️⬛️⬜️⬜️⬜️ Service Mesh | istio
+
+- layout: left
+  name: Programming Languages
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  #quote: >
+  #  Short overview of the project (optional)
+  description: | # this will include new lines to allow paragrap
+
+    ⬛️⬛️⬛️⬛️⬛️ python | pep8, pytest, flask, sqlalchemy, paramiko, pdb, packaging, celery, virtualenv
+    ⬛️⬛️⬛️⬛️⬛️ Orchestrization | Puppet, Ansible
+    ⬛️⬛️⬛️⬛️⬛️ IaaC | Terraform
+    ⬛️⬛️⬛️⬛️⬜️ Scripting | Bash, sh, spellcheck
+    ⬛️⬛️⬛️⬜️⬜️ Go | gin,kingpin,chi,testify,minikube(merges)
+    ⬛️⬛️⬛️⬜️⬜️ Scripting | ruby, perl
+    ⬛️⬛️⬜️⬜️⬜️ Lambda | Serverless framework
+    ⬛️⬛️⬜️⬜️⬜️ Orchestrization | Salt
+    ⬛️⬛️⬜️⬜️⬜️ IaaC | Cloud Formation
+    ⬛️⬛️⬜️⬜️⬜️ Rust | cargo, redox(merges)
+
+- layout: left
+  name: SRE
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  #quote: >
+  #  Short overview of the project (optional)
+  description: | # this will include new lines to allow paragrap
+    ⬛️⬛️⬛️⬛️⬛️ monitoring | Icinga
+    ⬛️⬛️⬛️⬛️⬜️ metrics | influxDB, telegraf, grafana, stackdriver, prometheus
+    ⬛️⬛️⬛️⬜️⬜️ Logs | ELK, awslogs, graylog, filebeat, munin
+    ⬛️⬛️⬛️⬜️⬜️ monitoring | New Relic
+
+- layout: left
+  name: CI/CD
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  #quote: >
+  #  Short overview of the project (optional)
+  description: | # this will include new lines to allow paragrap
+    ⬛️⬛️⬛️⬛️⬜️ CI | gitlab, cloudbuild
+    ⬛️⬛️⬛️⬜️⬜️ CD | spinnaker, jenkins
+    ⬛️⬛️⬜️⬜️⬜️ CI | CDS, stash, jira, GHE
+
+- layout: left
+  name: Other
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  #quote: >
+  #  Short overview of the project (optional)
+  description: | # this will include new lines to allow paragrap
+    ⬛️⬛️⬛️⬛️⬜️ cvs | git
+    ⬛️⬛️⬛️⬜️⬜️ db | mysql, galera, postgres
+    ⬛️⬛️⬛️⬜️⬜️ www | nginx, apache2, envoy
+    ⬛️⬛️⬛️⬜️⬜️ lb | haproxy
+    ⬛️⬛️⬛️⬜️⬜️ others | Redis, rabbitmq
+    ⬛️⬛️⬛️⬜️⬜️ db(nosql) | mongodb, firestore
+    ⬛️⬛️⬛️⬜️⬜️ markdown | this doc is written in markdown
+
+- layout: left
+  name: Security
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  #quote: >
+  #  Short overview of the project (optional)
+  description: | # this will include new lines to allow paragrap
+    ⬛️⬛️⬛️⬜️⬜️ blue | firewalls, iam, least priviledges, fail2ban, common sense, ...
+    ⬛️⬛️⬛️⬜️⬜️ CTF | puzzles, obfuscation, rev-engineering
+    ⬛️⬛️⬜️⬜️⬜️ red | basic msf, sqlinjection, ddos, overall script kiddie plus level

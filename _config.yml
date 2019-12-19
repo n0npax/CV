@@ -3,34 +3,34 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Marcin Niemira
+title: Software engineer
+#email: name.surname@gmail.com
+#phone: Your phone number (optional)
+#website: resume.niemira.net
 
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+twitter_username: n0npax
+github_username: n0npax
+stackoverflow_username: marcin-niemira
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: marcin-niemira-4a826a104
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -43,18 +43,31 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: img/profile.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Backend developer, DevOps, SRE, Cloud engineer, Technical recruiter, certified google cloud architect.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
+  OSS fan, Linux follower, a geek who lives in a basement but is not afraid of other people. 
+
+  <h2>Job profile</h2>
+
+  I may be a good fit to the roles like:
+
+  * Software Engineer
+  * Backend Developer
+  * DevOps Developer (Development and Ops for single product)
+  * Platform Engineer
+  * Consultant
+  * Architect
+
+  I’m not interested in roles like:
+
+  * Support engineer
+  * Operations engineer
+  * Front-End Developer
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+projects_title: Skills #(Use this to override about projects section title)
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
@@ -63,11 +76,40 @@ about_content: | # this will include new lines to allow paragraphs
 # education_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: Talks & voluntering #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  
+  My talks:
+  
+  * [python - weird behaviours](https://sched.co/VdAl) - Unconference, Melbourne, Australia 16 Oct 2019
+  * [honeypots](https://asi.pwr.edu.pl/blog/2013/02/24/geeks-night-4-0-web-application-security/) - Geeks night, Wrocław, Poland 16 Mar 2013
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  I've some commits in:
+
+  * cpython (8+ commits - docs, bugfix)
+  * minikube (kubernetes project) (50+ commits - tests, features)
+  * redox-os (10+ commits - coreutils, extrautils)
+  * terraform (2+ docs)
+  * cloud builders community (10+ commits - builders)
+
+  <!-- FIREBASE -->
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/7.4.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+  https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="/__/firebase/7.4.0/firebase-analytics.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js"></script>
+
+  <script>
+  analytics = firebase.analytics();
+  analytics.logEvent('CV-LOAD', {"nane":"index.html"});
+  </script>
 
 # Footer
 footer_show_references: true

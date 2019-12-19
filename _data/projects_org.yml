@@ -1,0 +1,38 @@
+# Project template
+- layout: top-middle
+  #name: Custom Projects
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  #quote: >
+  #  Short overview of the project (optional)
+  description: | # this will include new lines to allow paragraphs
+    Gliders flight managing system backend)
+    * Platform - App engine/firebase
+    * Metrics - stackdriver
+    * Logic - Python/Go
+  
+    Flower watering system
+    * Platform - K8S
+    * Metrics - Influx stack
+    * Logic - Python/Go
+    * Caching - Redis
+  
+    Dummy operating system
+    * Dummy operating system which jumps to protected mode and display potatoOS text
+    * kernel and bootloader (asm)
+  
+    LieHunter - polygraph
+    * Logic - Python/C
+    * Data collection - RPI/adc
+    * Dummy electric circuit
+  
+    Navi4Uni - Campus navigation & scheduling system
+    * Framework - JavaEE/Spring
+    * CI - jenkins
+    * Async tasks - python/celery
+  
+    WebRatRipper - computing liver cellule parameters
+    * Logic - python
+    * graphs - plotly
+  
+    Open source projects - check my github
