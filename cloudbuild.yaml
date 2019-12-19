@@ -8,6 +8,8 @@ steps:
     bundle update --bundler
     gem install gem-release --pre
     bundle exec jekyll b
-    echo ""
+    mv firebase.json _site/
+    mv .well-known _site/
 - name: 'gcr.io/$PROJECT_ID/firebase'
   args: ['deploy', '--project', '$PROJECT_ID']
+  dir: /workspace/_site
