@@ -54,9 +54,9 @@
   #  Short overview of the project (optional)
   description: | # this will include new lines to allow paragrap
     ⬛️⬛️⬛️⬛️⬛️ monitoring | Icinga
-    ⬛️⬛️⬛️⬛️⬜️ metrics | influxDB, telegraf, grafana, stackdriver, prometheus
+    ⬛️⬛️⬛️⬛️⬜️ metrics | influxDB, telegraf, grafana, prometheus
+    ⬛️⬛️⬛️⬛️⬜️ All in one | New Relic, stackdriver
     ⬛️⬛️⬛️⬜️⬜️ Logs | ELK, awslogs, graylog, filebeat, munin
-    ⬛️⬛️⬛️⬜️⬜️ monitoring | New Relic
 
 - layout: left
   name: CI/CD
@@ -82,7 +82,7 @@
     ⬛️⬛️⬛️⬜️⬜️ lb | haproxy
     ⬛️⬛️⬛️⬜️⬜️ others | Redis, rabbitmq
     ⬛️⬛️⬛️⬜️⬜️ db(nosql) | mongodb, firestore
-    ⬛️⬛️⬛️⬜️⬜️ markdown | this doc is written in markdown
+    ⬛️⬛️⬛️⬜️⬜️ markdown | readme, images, links
 
 - layout: left
   name: Security
