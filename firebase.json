@@ -1,13 +1,17 @@
 {
-    "hosting": {
-        "public": ".",
-        "site": "resume-248107"
-    },
-    "headers": [ {
-      "source": "**",
-      "headers": [ {
-        "key": "Access-Control-Allow-Origin",
-        "value": "*"
-      }]
-    }]
+  "hosting": {
+    "public": ".",
+    "site": "resume-248107",
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  }
 }
