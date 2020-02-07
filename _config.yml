@@ -43,7 +43,7 @@ linkedin_username: marcin-niemira-4a826a104
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: img/profile.jpg #Directory of profile image (eg. images/profile.jpg)
+#about_profile_image: img/profile.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Backend developer, DevOps, SRE, Cloud engineer, Technical recruiter, certified google cloud architect.
 

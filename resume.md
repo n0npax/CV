@@ -42,7 +42,7 @@ Software engineer (Developer/DevOps/SRE)
 
 January 2019 - Now Melbourne, Australia
 
-Developing Platform shared by many tribes & teams. Implementing new workflows for applications deployment. Introducing GCP and K8S to the teams. Providing support and advices for appliaction architecture. Providing clean and scalable architecture for shared platform. Implementing various solution using wide toolset. Dealing with various tasks range starting with regular application development to fully declarative security improvements and infrastructure management. Being technical lead for GCP based projects.
+Developing Platform shared by many tribes & teams. Implementing new workflows for applications deployment. Introducing GCP and K8S to the teams. Providing support and advices for appliaction architecture and non functional requirements. Providing clean and scalable architecture for shared platform. Designing CI/CD pipelines. Implementing various solution using wide toolset. Dealing with various tasks range starting with regular application development to fully declarative security improvements and infrastructure management. Being technical lead for GCP based projects.
 
 * GCP/K8S
   * GKE (cluster,istio,namespaces,rbac,network policies) - terraform, helm, yaml, kustomize
@@ -392,6 +392,10 @@ Member of student organization.
 
 # Custom Projects
 
+* Lime-comb - secrets sharing solution
+  * Platform - Firebase
+  * Metrics - stackdriver
+  * Logic - Python
 * Gliders flight managing system backend)
   * Platform - App engine/firebase
   * Metrics - stackdriver
