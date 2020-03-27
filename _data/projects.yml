@@ -23,9 +23,9 @@
     ⬛️⬛️⬛️⬛️⬛️ gcp | gcs, gcr, gke, functions, bigtable, cloudSQL, iam, pubsub, compute, appengine, ...
     ⬛️⬛️⬛️⬛️⬛️ k8s | manifests, helm, opa, rbac, spinnaker, network policies, ...
     ⬛️⬛️⬛️⬛️⬜️ aws | s3, ec2, ecs, lambda, dynamodb, sns, iam, beanstalk, cloudwatch, ...
+    ⬛️⬛️⬛️⬜️⬜️ Service Mesh | istio
     ⬛️⬛️⬛️⬜️⬜️ cloud | openstack, vmware, marathon
     ⬛️⬛️⬜️⬜️⬜️ Network | routing, switching
-    ⬛️⬛️⬜️⬜️⬜️ Service Mesh | istio
 
 - layout: left
   name: Programming Languages
