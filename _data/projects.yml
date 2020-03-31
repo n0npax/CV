@@ -77,6 +77,8 @@
   #  Short overview of the project (optional)
   description: | # this will include new lines to allow paragrap
     ⬛️⬛️⬛️⬛️⬜️ cvs | git
+    ⬛️⬛️⬛️⬛️⬜️ graphql, rest | api
+    ⬛️⬛️⬛️⬜️⬜️ grpc, jrpc | api
     ⬛️⬛️⬛️⬜️⬜️ db | mysql, galera, postgres
     ⬛️⬛️⬛️⬜️⬜️ www | nginx, apache2, envoy
     ⬛️⬛️⬛️⬜️⬜️ lb | haproxy
