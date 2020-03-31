@@ -6,6 +6,11 @@
   #quote: >
   #  Short overview of the project (optional)
   description: | # this will include new lines to allow paragraphs
+    Lime-comb - secrets sharing for small business
+    * Platform - App engine, firebase
+    * Cli - python
+    * Api - graphql
+
     Gliders flight managing system backend)
     * Platform - App engine/firebase
     * Metrics - stackdriver
