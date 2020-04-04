@@ -25,7 +25,7 @@
     ⬛️⬛️⬛️⬛️⬜️ aws | s3, ec2, ecs, lambda, dynamodb, sns, iam, beanstalk, cloudwatch, ...
     ⬛️⬛️⬛️⬜️⬜️ Service Mesh | istio
     ⬛️⬛️⬛️⬜️⬜️ cloud | openstack, vmware, marathon
-    ⬛️⬛️⬜️⬜️⬜️ Network | routing, switching
+    ⬛️⬛️⬛️⬜️⬜️ Network | routing, switching
 
 - layout: left
   name: Programming Languages
@@ -77,8 +77,8 @@
   #  Short overview of the project (optional)
   description: | # this will include new lines to allow paragrap
     ⬛️⬛️⬛️⬛️⬜️ cvs | git
-    ⬛️⬛️⬛️⬛️⬜️ graphql, rest | api
-    ⬛️⬛️⬛️⬜️⬜️ grpc, jrpc | api
+    ⬛️⬛️⬛️⬛️⬜️ api | graphql, rest
+    ⬛️⬛️⬛️⬜️⬜️ api | grpc, jrpc | api
     ⬛️⬛️⬛️⬜️⬜️ db | mysql, galera, postgres
     ⬛️⬛️⬛️⬜️⬜️ www | nginx, apache2, envoy
     ⬛️⬛️⬛️⬜️⬜️ lb | haproxy
