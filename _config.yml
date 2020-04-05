@@ -80,13 +80,15 @@ more_title: Talks & voluntering #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   Custom Projects:
   * [Lime-comb - secrets sharing solution(backend)](https://github.com/n0npax/lime-comb)
-    * Platform - Firebase
+    * Platform - App engine/firebase
     * Metrics - stackdriver
     * Logic - Python
+    * Api - graphql
   * [Wiatrol.app - glider flight management app](https://wiatrol.app/)
     * Platform - App engine/firebase
     * Metrics - stackdriver
-    * Logic - Python/Go
+    * Logic - Python
+    * Api - graphql
   * Flower watering system
     * Platform - K8S
     * Metrics - Influx stack
