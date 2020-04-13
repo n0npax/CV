@@ -1,8 +1,15 @@
 # certification template
 - columns: 4
-  name: Certification Name
+  name: Google Cloud Certified Professional Cloud Architect
   icon: award # (optional)
-  link: Link to certification (eg. sproogen.github.io/modern-resume-theme)
-  image_url: images/certifications/1.jpg # (eg. images/certifications/1.jpg)
+  link: https://www.credential.net/7fpo5kgy
+  image_url: img/gcp_arch_logo.png
   description: | # this will include new lines to allow paragraphs
-    Description about the certification 
+    Google Cloud Professional Cloud Architect
+- columns: 4
+  name: Certified Kubernetes Application Developer (CKAD)
+  icon: award # (optional)
+  link: https://training.cncf.io/portal/download-cert/CKAD/c0a45c3b-df09-ece2-5c4b-5d2ed9857233
+  image_url: img/ckad_logo.png
+  description: | # this will include new lines to allow paragraphs
+    Certified Kubernetes Application Developer (CKAD)
