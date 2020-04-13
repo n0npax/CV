@@ -14,7 +14,7 @@
   description: | # this will include new lines to allow paragraphs
     Issued by Linux Foundation
 - columns: 4
-  name: CCNA Routing and switching: Scaling Networks
+  name: CCNA Routing and switching - Scaling Networks
   icon: award # (optional)
   link: img/cisco.pdf
   image_url: img/ccna.jpg
