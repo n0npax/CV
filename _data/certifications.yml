@@ -2,21 +2,21 @@
 - columns: 4
   name: Google Cloud Certified Professional Cloud Architect
   icon: award # (optional)
-  link: https://www.credential.net/7fpo5kgy
+  link: https://bit.ly/2xpKN6a
   image_url: img/gcp_arch_logo.png
   description: | # this will include new lines to allow paragraphs
     Issued by Google
 - columns: 4
   name: Certified Kubernetes Application Developer (CKAD)
   icon: award # (optional)
-  link: https://training.cncf.io/portal/download-cert/CKAD/c0a45c3b-df09-ece2-5c4b-5d2ed9857233
+  link: https://bit.ly/2K2wUxy
   image_url: img/ckad_logo.png
   description: | # this will include new lines to allow paragraphs
     Issued by Linux Foundation
 - columns: 4
   name: CCNA Routing and switching - Scaling Networks
   icon: award # (optional)
-  link: img/cisco.pdf
-  image_url: img/ccna.jpg
+  link: https://bit.ly/34vQsnn
+  image_url: https://resume.niemira.net/img/cisco.pdf
   description: | # this will include new lines to allow paragraphs
     Issued by Cisco
