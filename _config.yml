@@ -65,6 +65,7 @@ about_content: | # this will include new lines to allow paragraphs
   * Support engineer
   * Operations engineer
   * Front-End Developer
+  * DevOps (as new name for Admin/Pipeline engineer)
 
 # Projects Section
 projects_title: Skills #(Use this to override about projects section title)
@@ -82,6 +83,10 @@ projects_title: Skills #(Use this to override about projects section title)
 more_title: Talks & voluntering #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   Custom Projects:
+  * [sidecar http dispatcher - App to dispatch requests base on headers](https://github.com/n0npax/sidecar_http_dispatcher/)
+    * Platform - Any(example for K8S)
+    * Logic - Go
+    * Performance tests - k6
   * [Lime-comb - secrets sharing solution(backend)](https://github.com/n0npax/lime-comb)
     * Platform - App engine/firebase
     * Metrics - stackdriver
@@ -118,7 +123,7 @@ more_content: | # this will include new lines to allow paragraphs
   I've some commits in:
 
   * cpython (8+ commits - docs, bugfix)
-  * minikube (kubernetes project) (50+ commits - tests, features)
+  * minikube (kubernetes project) (65+ commits - tests, features)
   * redox-os (10+ commits - coreutils, extrautils)
   * terraform (2+ docs)
   * cloud builders community (10+ commits - builders)

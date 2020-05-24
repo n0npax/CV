@@ -28,7 +28,7 @@
     ⬛️⬛️⬛️⬜️⬜️ Network | routing, switching
     ⬛️⬛️⬛️⬜️⬜️ Containers | kaniko
     ⬛️⬛️⬜️⬜️⬜️ Containers | systemd-nspawn
-    ⬛️⬛️⬜️⬜️⬜️ azure | event mesh, ad, blob
+    ⬛️⬛️⬜️⬜️⬜️ azure | event mesh, ad, blob, webapp, ingestion
 
 - layout: left
   name: Programming Languages
@@ -40,14 +40,16 @@
 
     ⬛️⬛️⬛️⬛️⬛️ python | pep8, pytest, flask, sqlalchemy, paramiko, pdb, packaging, celery, virtualenv
     ⬛️⬛️⬛️⬛️⬛️ Orchestrization | Puppet, Ansible
-    ⬛️⬛️⬛️⬛️⬛️ IaaC | Terraform
+    ⬛️⬛️⬛️⬛️⬛️ IaC | Terraform
     ⬛️⬛️⬛️⬛️⬜️ Scripting | Bash, sh, spellcheck
-    ⬛️⬛️⬛️⬜️⬜️ Go | gin,kingpin,chi,testify,minikube(merges)
+    ⬛️⬛️⬛️⬜️⬜️ Go | gin, kingpin, chi, testify, minikube(merges)
     ⬛️⬛️⬛️⬜️⬜️ Scripting | ruby, perl
     ⬛️⬛️⬜️⬜️⬜️ Lambda | Serverless framework
     ⬛️⬛️⬜️⬜️⬜️ Orchestrization | Salt
-    ⬛️⬛️⬜️⬜️⬜️ IaaC | Cloud Formation
+    ⬛️⬛️⬜️⬜️⬜️ IaC | Cloud Formation
     ⬛️⬛️⬜️⬜️⬜️ Rust | cargo, redox(merges)
+    ⬛️⬛️⬜️⬜️⬜️ JS | k6
+    
 
 - layout: left
   name: SRE
@@ -69,7 +71,7 @@
   #  Short overview of the project (optional)
   description: | # this will include new lines to allow paragrap
     ⬛️⬛️⬛️⬛️⬜️ CI | gitlab, cloudbuild
-    ⬛️⬛️⬛️⬜️⬜️ CD | spinnaker, jenkins
+    ⬛️⬛️⬛️⬜️⬜️ CD | spinnaker, jenkins, GitHub actions
     ⬛️⬛️⬜️⬜️⬜️ CI | CDS, stash, jira, GHE
 
 - layout: left
