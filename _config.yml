@@ -65,7 +65,7 @@ about_content: | # this will include new lines to allow paragraphs
   * Support engineer
   * Operations engineer
   * Front-End Developer
-  * DevOps (as new name for Admin/Pipeline engineer)
+  * DevOps (as new name for Admin who can code)
 
 # Projects Section
 projects_title: Skills #(Use this to override about projects section title)
