@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: n0npax/modern-resume-theme.git
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
@@ -9,6 +9,7 @@ title: Software engineer
 #phone: Your phone number (optional)
 #website: resume.niemira.net
 
+# Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
@@ -123,7 +124,7 @@ more_content: | # this will include new lines to allow paragraphs
   I've some commits in:
 
   * cpython (8+ commits - docs, bugfix)
-  * minikube (kubernetes project) (65+ commits - tests, features)
+  * minikube (kubernetes project) (75+ commits - tests, features)
   * redox-os (10+ commits - coreutils, extrautils)
   * terraform (2+ docs)
   * cloud builders community (10+ commits - builders)
