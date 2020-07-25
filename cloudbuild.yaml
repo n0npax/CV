@@ -9,7 +9,8 @@ steps:
         bundle update --bundler
         gem install gem-release --pre
         bundle exec jekyll b
-        mv firebase.json _site/
+        ls
+        mv firebase.json _site/ || touch _site/firebase.json
   - name: node:10-buster
     id: deploy
     dir: web

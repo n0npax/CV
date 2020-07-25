@@ -20,3 +20,11 @@
   image_url: https://resume.niemira.net/img/ccna.jpg
   description: | # this will include new lines to allow paragraphs
     Issued by Cisco
+- columns: 4
+  name: HashiCorp Certified: Terraform Associate
+  icon: award # (optional)
+  link: https://bit.ly/34vQsnn
+  image_url: https://resume.niemira.net/img/tf.png
+  description: | # this will include new lines to allow paragraphs
+    Issued by Hashicorp
+
